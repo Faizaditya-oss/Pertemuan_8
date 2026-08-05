@@ -5,3 +5,11 @@ module.exports = (sequelize, DataTypes) => {
             primaryKey: true,
             autoIncrement: true
         },
+        judul: {
+            type: DataTypes.STRING,
+            allowNull: false
+        },
+        sinopsis: {
+            type: DataTypes.TEXT,
+            allowNull: true
+        },
